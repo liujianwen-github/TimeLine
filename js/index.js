@@ -108,7 +108,15 @@
 			mainImg:"img/1941.jpg"
 		},{
 			name:'1942',
-			mainImg:"img/1942.jpg"
+			type:'lightbox',
+			mainImg:"img/1942_0.jpg",
+			imgs:[
+			"img/1942_0.jpg",
+			"img/1942_1.jpg",
+			"img/1942_2.jpg",
+			"img/1942_3.jpg",
+			"img/1942_4.jpg",
+			]
 		},{
 			name:'1943',
 			mainImg:"img/1943.jpg"

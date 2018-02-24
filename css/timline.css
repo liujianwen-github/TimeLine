@@ -7,8 +7,7 @@
     bottom: 10vh;
     width: 100%;
     height: 0;
-    text-align: center;
-    overflow: hidden; }
+    text-align: center; }
     .imgGroup > .mainImages .curr {
       padding: 1rem;
       background-color: white; }
@@ -23,15 +22,44 @@
   .imgGroup .item {
     position: relative;
     height: 12vh; }
+    .imgGroup .item > .mainImages {
+      position: absolute;
+      bottom: 10vh;
+      width: 100%;
+      height: 0;
+      text-align: center;
+      overflow: hidden; }
+      .imgGroup .item > .mainImages .curr {
+        width: 200%;
+        padding: 1rem;
+        z-index: 100;
+        box-sizing: border-box;
+        opacity: 0;
+        background-color: white;
+        position: relative; }
+        .imgGroup .item > .mainImages .curr img {
+          width: 100%; }
+      .imgGroup .item > .mainImages .line {
+        width: .5rem;
+        height: 100%;
+        background-color: white;
+        top: 10px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%); }
     .imgGroup .item > .footer {
       position: absolute;
       text-align: center;
       width: 100%;
       height: 10vh;
       bottom: 0;
-      border-top: 1px solid white; }
+      border-top: 1px solid white;
+      z-index: 100; }
       .imgGroup .item > .footer > img {
         width: 20%;
         transform: translateY(-50%); }
+  .imgGroup .item.active > .mainImages {
+    overflow: visible; }
 
 /*# sourceMappingURL=timline.css.map */

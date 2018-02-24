@@ -14,18 +14,55 @@
 							`<div class="line"></div>`+
 						`</div>`
 		args.imgGroup.forEach(function(e,i,arr){
+			var left = ''
+			switch(size){
+				case 0:{
+					left = "0";
+					break;
+				}
+				case 1:{
+					left = "-100%";
+					break;
+				}
+				case 2:{
+					left = "-200%";
+					break;
+				}
+				case 3:{
+					left = "-300%";
+					break;
+				}
+				case 4:{
+					left = "-400%";
+					break;
+				}
+			}
+			console.log(left)
 			var str = `<div class="item" style="width:`+100/args.groupSize+`%">`+
-						`<div class="line">`
+						`<div class="mainImages">`+
+							`<div class="curr" style="left: `+left+`;width:`+args.groupSize*100+`%">`+
+								`<img src="${e.mainImg}"/>`+
+							`</div>`+
+							`<div class="line" ></div>`+
+						`</div>`+
 						`<div class="footer">`+
 							`<img src="img/point.png"/>`+
 							`<p>${e.name}</p>`+
 						`</div>`+
 					`</div>`
+//			if(args.type === 'lightbox'){
+//				lc_lightbox('.lightBox',{
+//					wrap_class: 'lcl_fade_oc',
+//			        gallery: true,
+//			        thumb_attr: 'data-lcl-thumb',
+////			        skin: 'dark'
+//				})
+//			}
 			$(group).append(str)	
 			size++
 			console.log(size)
 			if(size===args.groupSize){
-				$(group).prepend(showBox)
+//				$(group).prepend(showBox)
 				$(_this).append(group)
 				group = $('<div class="imgGroup"  style="width:'+(args.groupSize/args.imgGroup.length)*100+'vw"></div>')
 				size = 0
@@ -38,15 +75,25 @@
 			if($(this).parents('.item').hasClass('active')){
 				$(this).find('.item').removeClass('active')
 				$(this).parents('.imgGroup').find('.mainImages').animate({height:0},500)
+//				$(this).parents('.item').find('.curr').animate({opacity:0},200)
 				$(this).attr('src','img/point.png')
 				$(this).parents('.item').removeClass('active')
 				return
 			}
 			$(this).attr('src','img/select.png')
 			$(this).parents('.item').addClass('active')
-			$(this).parents('.imgGroup').find('.mainImages').animate({height:'50vh'},500)
-	//		$(this).parents('.item').siblings().find('.mainImages').animate({height:0},500)
-	//		$(this).parents('.item').siblings().find('.footer').find('img').attr('src','img/point.png')
+//			$(this).parents('.imgGroup').find('.mainImages').animate({height:'50vh'},500)
+//			$(this).parents('.item').find('.curr').animate({opacity:1},500)
+			$(this).parents('.item').find('.mainImages').animate({height:'50vh'},500,function(){
+				$(_this).parents('.item').find('.curr').animate({opacity:1},0)
+			})
+//			$(this).parents('.item').find('.curr').css()
+			$(this).parents('.item').find('.curr').animate({opacity:0},300,function(){
+				$(_this).parents('.item').siblings().find('.mainImages').animate({height:0},200)
+			})
+			
+			$(this).parents('.item').siblings('.item').removeClass('active')
+			$(this).parents('.item').siblings().find('.footer').find('img').attr('src','img/point.png')
 		})
 	}
 	/**
