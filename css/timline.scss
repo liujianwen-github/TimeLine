@@ -1,8 +1,9 @@
-.item{
-    position: relative;
-    width: 20%;
+.imgGroup{
+    position:relative;
     height: 12vh;
-//  overflow: hidden;
+    display: flex;
+//  overflow: auto;
+//  background-color: red;
     >.mainImages{
         position: absolute;
         bottom: 10vh;
@@ -27,16 +28,22 @@
         }
         
     }
-    >.footer{
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        height: 10vh;
-        bottom: 0;
-        border-top: 1px solid white;
-        >img{
-            width: 20%;
-            transform: translateY(-50%);
+    .item{
+        position: relative;
+    //  width: 20%;
+        height: 12vh;
+    //  overflow: hidden;
+        >.footer{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            height: 10vh;
+            bottom: 0;
+            border-top: 1px solid white;
+            >img{
+                width: 20%;
+                transform: translateY(-50%);
+            }
         }
     }
 }

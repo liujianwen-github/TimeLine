@@ -5,20 +5,48 @@
 	 */
 	$.fn.initTimeLine = function(args){
 		var _this = this
-		args.forEach(function(e,i,arr){
-			var str = `<div class="item">`+
-						`<div class="mainImages">`+
+		var size = 0
+		var group = $('<div class="imgGroup"  style="width:'+(args.groupSize/args.imgGroup.length)*100+'vw"></div>')
+		var showBox = `<div class="mainImages">`+
 							`<div class="curr" style="transform: scale(1);">`+
-								`<img src=${e.mainImg}/>`+
+								`<img src=""/>`+
 							`</div>`+
 							`<div class="line"></div>`+
-						`</div>`+
+						`</div>`
+		args.imgGroup.forEach(function(e,i,arr){
+			var str = `<div class="item" style="width:`+100/args.groupSize+`%">`+
+						`<div class="line">`
 						`<div class="footer">`+
 							`<img src="img/point.png"/>`+
 							`<p>${e.name}</p>`+
 						`</div>`+
 					`</div>`
-			$(_this).append(str)	
+			$(group).append(str)	
+			size++
+			console.log(size)
+			if(size===args.groupSize){
+				$(group).prepend(showBox)
+				$(_this).append(group)
+				group = $('<div class="imgGroup"  style="width:'+(args.groupSize/args.imgGroup.length)*100+'vw"></div>')
+				size = 0
+				console.log('clear')
+			}
+		})
+		$('body').on('touchstart','.item .footer img',function(e){
+			var _this = this
+	//		console.log(this)
+			if($(this).parents('.item').hasClass('active')){
+				$(this).find('.item').removeClass('active')
+				$(this).parents('.imgGroup').find('.mainImages').animate({height:0},500)
+				$(this).attr('src','img/point.png')
+				$(this).parents('.item').removeClass('active')
+				return
+			}
+			$(this).attr('src','img/select.png')
+			$(this).parents('.item').addClass('active')
+			$(this).parents('.imgGroup').find('.mainImages').animate({height:'50vh'},500)
+	//		$(this).parents('.item').siblings().find('.mainImages').animate({height:0},500)
+	//		$(this).parents('.item').siblings().find('.footer').find('img').attr('src','img/point.png')
 		})
 	}
 	/**

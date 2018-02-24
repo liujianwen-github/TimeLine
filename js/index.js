@@ -89,41 +89,35 @@
 	
 //	var i = new Hammer()
 	console.log(Hammer)
-	$('.showBox').initTimeLine([{
-		name:'1937',
-		mainImg:"img/dog.jpg"
-	},{
-		name:'1938',
-		mainImg:"img/dog.jpg"
-	},{
-		name:'1939',
-		mainImg:"img/dog.jpg"
-	},{
-		name:'1940',
-		mainImg:"img/dog.jpg"
-	},{
-		name:'1941',
-		mainImg:"img/dog.jpg"
-	},{
-		name:'1942',
-		mainImg:"img/dog.jpg"
-	}])
-	$('body').on('touchstart','.item .footer img',function(e){
-		var _this = this
-		console.log(this)
-		if($(this).parents('.item').hasClass('active')){
-			$(this).find('.item').removeClass('active')
-			$(this).parents('.item').find('.mainImages').animate({height:0},500)
-			$(this).attr('src','img/point.png')
-			$(this).parents('.item').removeClass('active')
-			return
-		}
-		$(this).attr('src','img/select.png')
-		$(this).parents('.item').addClass('active')
-		$(this).parents('.footer').siblings('.mainImages').animate({height:'50vh'},500)
-//		$(this).parents('.item').siblings().find('.mainImages').animate({height:0},500)
-//		$(this).parents('.item').siblings().find('.footer').find('img').attr('src','img/point.png')
+	$('.showBox').initTimeLine({
+		groupSize:2,
+		imgGroup:[{
+			name:'1937',
+			mainImg:"img/1937.jpg"
+		},{
+			name:'1938',
+			mainImg:"img/1938.jpg"
+		},{
+			name:'1939',
+			mainImg:"img/1939.jpg"
+		},{
+			name:'1940',
+			mainImg:"img/1940.jpg"
+		},{
+			name:'1941',
+			mainImg:"img/1941.jpg"
+		},{
+			name:'1942',
+			mainImg:"img/1942.jpg"
+		},{
+			name:'1943',
+			mainImg:"img/1943.jpg"
+		},{
+			name:'1944',
+			mainImg:"img/1944.jpg"
+		}]
 	})
+
 //	return
 	console.log('init')
 	$('#clear').on('click',function(){

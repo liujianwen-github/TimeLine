@@ -1,9 +1,37 @@
-.item { position: relative; width: 20%; height: 12vh; }
-.item > .mainImages { position: absolute; bottom: 10vh; width: 100%; height: 0; text-align: center; overflow: hidden; }
-.item > .mainImages .curr { padding: 1rem; background-color: white; }
-.item > .mainImages .curr img { width: 100%; }
-.item > .mainImages .line { width: .5rem; height: 100%; background-color: white; top: 10px; bottom: 0; }
-.item > .footer { position: absolute; text-align: center; width: 100%; height: 10vh; bottom: 0; border-top: 1px solid white; }
-.item > .footer > img { width: 20%; transform: translateY(-50%); }
+.imgGroup {
+  position: relative;
+  height: 12vh;
+  display: flex; }
+  .imgGroup > .mainImages {
+    position: absolute;
+    bottom: 10vh;
+    width: 100%;
+    height: 0;
+    text-align: center;
+    overflow: hidden; }
+    .imgGroup > .mainImages .curr {
+      padding: 1rem;
+      background-color: white; }
+      .imgGroup > .mainImages .curr img {
+        width: 100%; }
+    .imgGroup > .mainImages .line {
+      width: .5rem;
+      height: 100%;
+      background-color: white;
+      top: 10px;
+      bottom: 0; }
+  .imgGroup .item {
+    position: relative;
+    height: 12vh; }
+    .imgGroup .item > .footer {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      height: 10vh;
+      bottom: 0;
+      border-top: 1px solid white; }
+      .imgGroup .item > .footer > img {
+        width: 20%;
+        transform: translateY(-50%); }
 
 /*# sourceMappingURL=timline.css.map */
