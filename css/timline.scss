@@ -1,0 +1,42 @@
+.item{
+    position: relative;
+    width: 20%;
+    height: 12vh;
+//  overflow: hidden;
+    >.mainImages{
+        position: absolute;
+        bottom: 10vh;
+        width: 100%;
+        height: 0;
+        text-align: center;
+        overflow: hidden;
+        .curr{
+            padding: 1rem;
+            background-color: white;
+            img{
+                width: 100%;
+            }
+        }
+        .line{
+           width: .5rem;
+           height: 100%;
+           background-color: white;
+           top:10px;
+//         position: absolute;
+           bottom: 0;
+        }
+        
+    }
+    >.footer{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 10vh;
+        bottom: 0;
+        border-top: 1px solid white;
+        >img{
+            width: 20%;
+            transform: translateY(-50%);
+        }
+    }
+}
