@@ -3,59 +3,51 @@
 		console.log($(this).parents('.mainImages'))
 	}
 	$('#imagesStream').initImagesStream([{
-		source:"img/dog.jpg",
+		source:"img/back1.jpg",
 		style:{
 			position:'top',
 			size:50
 		}
 	},{
-		source:"img/dog.jpg",
+		source:"img/back2.jpg",
 		style:{
 			position:'middle',
 			size:30
 		}
 	},{
-		source:"img/dog.jpg",
+		source:"img/back3.jpg",
 		style:{
 			position:'bottom',
 			size:20
 		}
 	},{
-		source:"img/dog.jpg",
+		source:"img/back4.jpg",
 		style:{
 			position:'top',
 			size:100
 		}
 	},{
-		source:"img/dog.jpg",
+		source:"img/back5.jpg",
 		style:{
 			position:'middle',
 			size:10
 		}
 	},{
-		source:"img/dog.jpg",
+		source:"img/back6.jpg",
 		style:{
 			position:'bottom',
 			size:20
 		}
 	},{
-		source:"img/dog.jpg"
+		source:"img/back7.jpg"
 	},{
-		source:"img/dog.jpg"
+		source:"img/back8.jpg"
 	},{
-		source:"img/dog.jpg"
+		source:"img/back9.jpg"
 	},{
-		source:"img/dog.jpg"
+		source:"img/back10.jpg"
 	},{
-		source:"img/dog.jpg"
-	},{
-		source:"img/dog.jpg"
-	},{
-		source:"img/dog.jpg"
-	},{
-		source:"img/dog.jpg"
-	},{
-		source:"img/dog.jpg"
+		source:"img/back11.jpg"
 	}])
 //	$('#imagesStream .box').on('click',function(){
 //		alert('1')
@@ -80,7 +72,11 @@
 	})
 	imgStream(60000)
 	function imgStream(speed){
-		$('#imagesStream').animate({'left':'-500vw'},speed,"linear",function(){
+		console.log($('#imagesStream').width())
+//		alert($('#imagesStream').width())
+		var totalWidth = $('#imagesStream').width()
+		var viewWidth = $('#background').width()
+		$('#imagesStream').animate({'left':viewWidth-totalWidth+'px'},speed,"linear",function(){
 			$('#imagesStream').animate({'left':'0'},speed,"linear",function(){
 				imgStream(speed)
 			})
@@ -124,6 +120,14 @@
 			name:'1944',
 			mainImg:"img/1944.jpg"
 		}]
+	},function(){
+		$('.imgGroup .item .mainImages ul').each(function(index,el){
+			var id = $(this).attr('id')
+			$('#'+id).pgwSlideshow({
+		    		transitionEffect:'fading',
+		    		autoSlide:true
+		    });
+		})
 	})
 
 //	return
