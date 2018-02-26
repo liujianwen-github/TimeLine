@@ -84,7 +84,8 @@
 	//		console.log(this)
 			if($(this).parents('.item').hasClass('active')){
 				$(this).find('.item').removeClass('active')
-				$(this).parents('.imgGroup').find('.mainImages').animate({height:0},500)
+				$(this).parents('.item').find('.mainImages').css('visibility','hidden')
+				$(this).parents('.imgGroup').find('.mainImages').animate({opacity:0},500)
 //				$(this).parents('.item').find('.curr').animate({opacity:0},200)
 				$(this).attr('src','img/point.png')
 				$(this).parents('.item').removeClass('active')
@@ -94,13 +95,9 @@
 			$(this).parents('.item').addClass('active')
 //			$(this).parents('.imgGroup').find('.mainImages').animate({height:'50vh'},500)
 //			$(this).parents('.item').find('.curr').animate({opacity:1},500)
-			$(this).parents('.item').find('.mainImages').animate({height:'50vh'},300,function(){
-				$(_this).parents('.item').find('.curr').animate({opacity:1},200)
-			})
-			$(this).parents('.item').find('.curr').animate({opacity:0},300,function(){
-				$(_this).parents('.item').siblings().find('.mainImages').animate({height:0},200)
-			})
-			
+			$(this).parents('.item').find('.mainImages').css('visibility','visible')
+			$(this).parents('.item').find('.mainImages').animate({opacity:'1'},500)
+			$(_this).parents('.item').siblings().find('.mainImages').animate({opacity:0},300)
 			$(this).parents('.item').siblings('.item').removeClass('active')
 			$(this).parents('.item').siblings().find('.footer').find('img').attr('src','img/point.png')
 		})

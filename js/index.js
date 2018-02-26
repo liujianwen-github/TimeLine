@@ -1,4 +1,5 @@
 (function($){
+//	alert($('.showBox').width())
 	function showImgs(){
 		console.log($(this).parents('.mainImages'))
 	}
@@ -54,7 +55,7 @@
 //	})
 	var imgs = $('#imagesStream .box')
 	$('body').on('click',"#imagesStream .box",function(){
-		alert('1')
+//		alert('1')
 	})
 	console.log(imgs)
 //	imgs.each(function(inedx,el){
@@ -124,8 +125,10 @@
 		$('.imgGroup .item .mainImages ul').each(function(index,el){
 			var id = $(this).attr('id')
 			$('#'+id).pgwSlideshow({
-		    		transitionEffect:'fading',
-		    		autoSlide:true
+		    		transitionEffect:'sliding',
+		    		autoSlide:true,
+		    		displayList:true,
+		    		displayControls:false
 		    });
 		})
 	})

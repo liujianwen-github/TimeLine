@@ -144,7 +144,10 @@
     top: 45%;
     cursor: pointer;
 }
-
+/*revised by liujianwen*/ 
+.pgwSlideshow .ps-list{
+	width: 100%;
+}
 .pgwSlideshow .ps-list .ps-prev {
     background: rgba(0, 0, 0, 0.5);
     filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000', endColorstr='#bb000000');
@@ -181,8 +184,10 @@
  * The media-queries are not used because IE8 doesn't support them.
  */
 .pgwSlideshow.narrow .ps-list li img {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
+    /*revised by liujianwen*/
+    /*width: 20%;*/
 }
 
 .pgwSlideshow.narrow .ps-current .ps-prev {
