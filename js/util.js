@@ -56,10 +56,15 @@
 			}else{
 				content = `<img src="${e.mainImg}"/>`
 			}
+			/**
+			 * revised by liujianwen 02/28
+			 * 相邻弹出框留出空间
+			 */
 			str = `<div class="item" style="width:`+100/args.groupSize+`%">`+
 						`<div class="mainImages">`+
-							`<div class="curr" style="left: `+left+`;width:`+args.groupSize*100+`%">`+
+							`<div class="curr" style="left: `+left+`;width:`+((args.groupSize*100)-20)+`%">`+ //this point
 								content+
+								`<div class="textContent"><p>预留文本位置</p></div>`+
 							`</div>`+
 							`<div class="line" ></div>`+
 						`</div>`+
@@ -85,7 +90,8 @@
 			if($(this).parents('.item').hasClass('active')){
 				$(this).find('.item').removeClass('active')
 				$(this).parents('.item').find('.mainImages').css('visibility','hidden')
-				$(this).parents('.imgGroup').find('.mainImages').animate({opacity:0},500)
+				$(this).parents('.imgGroup').find('.mainImages').find('.curr').animate({opacity:0},500)
+				$(_this).parents('.item').find('.mainImages').find('.line').css('height',0)
 //				$(this).parents('.item').find('.curr').animate({opacity:0},200)
 				$(this).attr('src','img/point.png')
 				$(this).parents('.item').removeClass('active')
@@ -96,8 +102,15 @@
 //			$(this).parents('.imgGroup').find('.mainImages').animate({height:'50vh'},500)
 //			$(this).parents('.item').find('.curr').animate({opacity:1},500)
 			$(this).parents('.item').find('.mainImages').css('visibility','visible')
-			$(this).parents('.item').find('.mainImages').animate({opacity:'1'},500)
-			$(_this).parents('.item').siblings().find('.mainImages').animate({opacity:0},300)
+			
+			$(this).parents('.item').find('.mainImages').find('.line').animate({'height':'10vh'},500,function(){
+				$(this).parents('.item').find('.mainImages').find('.curr').animate({opacity:'1'},500)
+			})
+			
+			
+			
+			$(_this).parents('.item').siblings().find('.mainImages').find('.curr').animate({opacity:0},300)
+			$(_this).parents('.item').siblings().find('.mainImages').find('.line').css('height',0)
 			$(this).parents('.item').siblings('.item').removeClass('active')
 			$(this).parents('.item').siblings().find('.footer').find('img').attr('src','img/point.png')
 		})

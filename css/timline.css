@@ -13,23 +13,34 @@
       width: 100%;
       height: 70vh;
       visibility: hidden;
-      text-align: center;
-      opacity: 0; }
+      text-align: center; }
       .imgGroup .item > .mainImages .curr {
         width: 200%;
         height: 70vh;
-        padding: 1rem;
+        padding: .5em;
         z-index: 100;
+        opacity: 0;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-sizing: content-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         background-color: white;
         position: absolute;
         bottom: 10vh; }
-        .imgGroup .item > .mainImages .curr img {
-          max-width: 100%; }
+        .imgGroup .item > .mainImages .curr > img {
+          max-width: 100%;
+          width: 100%;
+          height: 100px; }
+        .imgGroup .item > .mainImages .curr .textContent {
+          margin-top: 1em;
+          border-top: 1px solid black; }
+        .imgGroup .item > .mainImages .curr .ps-current img {
+          width: 100%;
+          height: 100px; }
       .imgGroup .item > .mainImages .line {
         width: .5rem;
-        height: 10vh;
+        height: 0;
         background-color: white;
         position: absolute;
         bottom: 0;
@@ -40,7 +51,6 @@
       position: absolute;
       text-align: center;
       width: 100%;
-      height: 10vh;
       bottom: 0;
       border-top: 1px solid white;
       z-index: 100; }

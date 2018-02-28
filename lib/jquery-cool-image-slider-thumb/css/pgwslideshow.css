@@ -19,7 +19,11 @@
 .pgwSlideshow .ps-current {
     text-align: center;
     position: relative;
-    min-height: 150px;
+    /*
+     * revised by liujianwen 02/28
+     * 解决移动端图片栏下方的黑边
+     */
+    /*min-height: 150px;*/
     overflow: hidden;
 }
 
