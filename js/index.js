@@ -71,7 +71,7 @@
 			dom:el
 		})
 	})
-	imgStream(60000)
+	imgStream(30000)
 	function imgStream(speed){
 		console.log($('#imagesStream').width())
 //		alert($('#imagesStream').width())
