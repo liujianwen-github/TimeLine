@@ -85,11 +85,12 @@
 		})
 		// 添加图片按钮点击事件
 		$('body').on('touchstart','.item .footer img',function(e){
+			e.stopPropagation()
 			var _this = this
 	//		console.log(this)
 			if($(this).parents('.item').hasClass('active')){
 				$(this).find('.item').removeClass('active')
-				$(this).parents('.item').find('.mainImages').css('visibility','hidden')
+				$(this).parents('.item').find('.mainImages').css('display','none')
 				$(this).parents('.imgGroup').find('.mainImages').find('.curr').animate({opacity:0},500)
 				$(_this).parents('.item').find('.mainImages').find('.line').css('height',0)
 //				$(this).parents('.item').find('.curr').animate({opacity:0},200)
@@ -101,7 +102,7 @@
 			$(this).parents('.item').addClass('active')
 //			$(this).parents('.imgGroup').find('.mainImages').animate({height:'50vh'},500)
 //			$(this).parents('.item').find('.curr').animate({opacity:1},500)
-			$(this).parents('.item').find('.mainImages').css('visibility','visible')
+			$(this).parents('.item').find('.mainImages').css('display','block')
 			
 			$(this).parents('.item').find('.mainImages').find('.line').animate({'height':'10vh'},500,function(){
 				$(this).parents('.item').find('.mainImages').find('.curr').animate({opacity:'1'},500)

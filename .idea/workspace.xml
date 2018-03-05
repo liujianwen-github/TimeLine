@@ -2,58 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fdc91fd-8ef3-4eb2-98a6-0a296f9e91b1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1942_4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/css/fonts/lc_lightbox.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/css/fonts/lc_lightbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/css/fonts/lc_lightbox.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/css/fonts/lc_lightbox.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/css/lc_lightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/css/lc_lightbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/oblique_dots.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-dot-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-dot-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-dot-b1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-dot-b2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-dot-b3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-dot-b4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-triangle-05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-triangle-10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-triangle-20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-triangle-30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-triangle-40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-ver-line-10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-ver-line-20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-ver-line-30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-ver-line-40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/img/patterns/pattern-ver-line-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/jquery插件库.url" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/js/jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/js/lc_lightbox.lite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/js/lc_lightbox.lite.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/lib/AlloyFinger/alloy_finger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/lib/AlloyFinger/alloy_finger.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/pictures/d1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/pictures/d2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/pictures/d3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/pictures/d4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/pictures/d5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/pictures/d6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/skins/dark.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/skins/light.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/skins/minimal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jqueryHdp/新建文本文档.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.scss" afterPath="$PROJECT_DIR$/css/index.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/timline.css" afterPath="$PROJECT_DIR$/css/timline.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/timline.css.map" afterPath="$PROJECT_DIR$/css/timline.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/timline.scss" afterPath="$PROJECT_DIR$/css/timline.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/util.js" afterPath="$PROJECT_DIR$/js/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jquery-cool-image-slider-thumb/css/pgwslideshow.css" afterPath="$PROJECT_DIR$/lib/jquery-cool-image-slider-thumb/css/pgwslideshow.css" />
     </list>
     <ignored path="TimeLine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,12 +32,12 @@
     <favorites_list name="TimeLine" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="578">
+              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -89,28 +46,38 @@
       <file leaf-file-name="timline.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/timline.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="4353" />
+            <state relative-caret-position="85">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pgwslideshow.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="timline.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/timline.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pgwslideshow.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/jquery-cool-image-slider-thumb/css/pgwslideshow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="208" column="22" selection-start-line="208" selection-start-column="22" selection-end-line="208" selection-end-column="22" />
+            <state relative-caret-position="137">
+              <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -126,6 +93,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/css/timline.scss" />
+        <option value="$PROJECT_DIR$/css/timline.css" />
         <option value="$PROJECT_DIR$/lib/jquery-cool-image-slider-thumb/css/pgwslideshow.css" />
       </list>
     </option>
@@ -137,20 +105,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
+    <option name="x" value="60" />
     <option name="y" value="25" />
     <option name="width" value="1163" />
     <option name="height" value="722" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -167,15 +125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TimeLine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="TimeLine" />
@@ -199,9 +150,28 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="timline.scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeLine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeLine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -212,6 +182,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -221,6 +193,12 @@
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -239,10 +217,16 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -273,33 +257,37 @@
       <option name="presentableId" value="Default" />
       <updated>1519558902268</updated>
       <workItem from="1519558903505" duration="288000" />
+      <workItem from="1519894516415" duration="868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288000" />
+    <option name="totallyTimeSpent" value="1156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="25" width="1163" height="722" extended-state="0" />
+    <frame x="60" y="25" width="1163" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24935512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24868652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -319,8 +307,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="578">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -328,15 +316,31 @@
     <entry file="file://$PROJECT_DIR$/css/timline.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="4353" />
+          <caret line="8" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/jquery-cool-image-slider-thumb/css/pgwslideshow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="208" column="22" selection-start-line="208" selection-start-column="22" selection-end-line="208" selection-end-column="22" />
+        <state relative-caret-position="3536">
+          <caret line="208" column="22" lean-forward="false" selection-start-line="208" selection-start-column="22" selection-end-line="208" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -344,7 +348,31 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/timline.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/timline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jquery-cool-image-slider-thumb/css/pgwslideshow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="203" column="43" lean-forward="true" selection-start-line="203" selection-start-column="43" selection-end-line="203" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -71,16 +71,18 @@
 			dom:el
 		})
 	})
-	imgStream(30000)
+	imgStream(6000)
 	function imgStream(speed){
 		console.log($('#imagesStream').width())
 //		alert($('#imagesStream').width())
 		var totalWidth = $('#imagesStream').width()
 		var viewWidth = $('#background').width()
-		$('#imagesStream').animate({'left':viewWidth-totalWidth+'px'},speed,"linear",function(){
-			$('#imagesStream').animate({'left':'0'},speed,"linear",function(){
+		$('#imagesStream').animate({'left':-totalWidth+'px'},speed,"linear",function(){
+			console.log('round')
+			$('#imagesStream').css('left',viewWidth+'px')
+//			$('#imagesStream').animate({'left':'0'},speed,"linear",function(){
 				imgStream(speed)
-			})
+//			})
 		})
 	}
 	
@@ -126,7 +128,7 @@
 			var id = $(this).attr('id')
 			$('#'+id).pgwSlideshow({
 		    		transitionEffect:'sliding',
-		    		autoSlide:true,
+//		    		autoSlide:true,
 		    		displayList:true,
 		    		displayControls:false
 		    });
